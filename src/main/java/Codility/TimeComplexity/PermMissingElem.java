@@ -1,6 +1,7 @@
 package Codility.TimeComplexity;
 
-public class PermMissingElem1 {
+public class PermMissingElem {
+
 
     public static int solution(int A[]){
         boolean[] resultArray = new boolean[A.length+1];

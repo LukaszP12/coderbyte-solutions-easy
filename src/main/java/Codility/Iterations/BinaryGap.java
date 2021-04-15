@@ -1,4 +1,4 @@
-package Codility;
+package Codility.Iterations;
 
 public class BinaryGap {
 

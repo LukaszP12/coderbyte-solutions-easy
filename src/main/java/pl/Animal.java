@@ -2,7 +2,7 @@ package pl;
 
 public abstract class Animal {
     private int numbersOfLegs;
-
+    
 
     public void makeSound(){
         System.out.println("I am an animal");
@@ -11,4 +11,5 @@ public abstract class Animal {
     public void drink(){
 
     }
+
 }
