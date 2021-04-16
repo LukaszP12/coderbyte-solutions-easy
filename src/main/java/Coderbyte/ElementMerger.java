@@ -16,7 +16,7 @@ public class ElementMerger {
     }
 
     public static int ElementMerger2(int[] arr) {
-
+        return 0;
     }
 
     public static void main(String[] args) {
