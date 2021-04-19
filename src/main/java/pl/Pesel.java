@@ -3,6 +3,7 @@ package pl;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.chrono.ChronoLocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
@@ -29,8 +30,8 @@ public class Pesel {
 
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/mm/dd", Locale.ENGLISH);
         Date firstDate = simpleDateFormat.parse(year + "/" + month + "/" + day);
-        Date todayDate = simpleDateFormat.parse("2021/04/18");
-//        Date todayDate = simpleDateFormat.parse(String.valueOf(LocalDate.now()));
+//        Date todayDate = simpleDateFormat.parse("2021/04/18");
+        Date todayDate = simpleDateFormat.parse(String.valueOf(LocalDateTime.now()));
 
         long difference_In_Time = todayDate.getTime() - firstDate.getTime();
 
